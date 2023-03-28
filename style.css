@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+.container{
+    width: 586px;
+    height: 100%;
+    margin: auto;
+    padding: 25px 0;
+}
+h1{
+    line-height: 3rem;
+}
+p{
+    padding: 10px 0 25px 0;
+    font-weight:bolder;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.apple{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg);
+    height: 30px;
+    width: 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.google{
+    background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+    height: 30px;
+    width: 14%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.microsoft{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31);
+    height: 30px;
+    width: 23%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.spotify{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png);
+    height: 30px;
+    width: 16%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.amazon{
+    background-image: url(https://apologeticscanada.com/wp-content/uploads/2020/08/1280px-Amazon.com-Logo.svg.png);
+    height: 21px;
+    width: 16%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+button{
+    background-color: rgb(255, 252, 58);
+    height: 48px;
+    width: 76%;
+    border: solid 2px orange;
+    font-family: 'Courier New';
+    font-size: 17px;
+    Letter-spacing: 2px;
+}
+.boton{
+    display: grid;
+    place-items: center;
+    padding-bottom: 10px;
+}
+button:hover {
+    background-color: #ffd518;
+    border: solid 2px yellow;
+    transition: 1s;
+}
+.persona{
+    background-image: url(https://www.freecodecamp.org/static/wide-image-3cb329e8b3cae865be76746fbd069cd2.png);
+    height: 22rem;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer>p{
+    line-height: 1px;
+    text-align: center;
+}
